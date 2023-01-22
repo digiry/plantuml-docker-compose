@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  plantuml-server:
+    image: plantuml/plantuml-server:jetty
+
+    # ports should be defined by `docker-compose.override.yml`
+    # ports: []

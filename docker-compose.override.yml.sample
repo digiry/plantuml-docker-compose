@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  plantuml-server:
+    # You can change the Port number.
+    ports:
+      - 8080:8080
